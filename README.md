@@ -1,4 +1,4 @@
-# 🟠 Curiosity Marte 🟠
+# Curiosity Marte 🟠
 
 Por Victor Augusto Souza Resende
 
