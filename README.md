@@ -19,7 +19,6 @@ Nesse repositório há todos os arquivos utilizados para a confecção desse pro
   <img src="https://user-images.githubusercontent.com/63743020/122660142-48477500-d155-11eb-9fa7-9299070a3acc.png" />
 </p>
 
-![marte](https://user-images.githubusercontent.com/63743020/122660142-48477500-d155-11eb-9fa7-9299070a3acc.png)
 
 
 
