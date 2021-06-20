@@ -1,4 +1,3 @@
-![marte](https://user-images.githubusercontent.com/63743020/122660140-441b5780-d155-11eb-80ea-1e33c7e49870.png)
 # Curiosity Marte 🟠
 
 Por Victor Augusto Souza Resende
@@ -15,6 +14,10 @@ Esse projeto foi executado utilizando a metodologia de mineração de dados deno
 Então, ao fim da etapa de implementação do CRISP-DM, dedicou-se a criação de uma hospedagem web via streamlit, da qual é uma biblioteca da linguagem Python, para a implementação da conclusão deste projeto. Portanto, no canto superior esquerdo, no menu, é possível acessar as duas conclusões, a primeira em relação ao relatório climático de Marte e a segunda sobre o modelo de regressão linear múltiplo criado, do qual possui interação com o usuário.
 
 Nesse repositório há todos os arquivos utilizados para a confecção desse projeto. A pasta documentação possui o arquivo PDF da qual contêm toda a documentação da criação desse projeto com a abordagem CRISP-DM. Na pasta Notebook está o arquivo Jupyter Notebook da qual foi utilizado para a confecção dos códigos nas análises. E então, o restante é referente à implementação streamlit para a resposta das duas perguntas norteadoras.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/63743020/122660142-48477500-d155-11eb-9fa7-9299070a3acc.png" />
+</p>
 
 ![marte](https://user-images.githubusercontent.com/63743020/122660142-48477500-d155-11eb-9fa7-9299070a3acc.png)
 
