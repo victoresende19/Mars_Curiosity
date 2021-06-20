@@ -1,3 +1,4 @@
+![marte](https://user-images.githubusercontent.com/63743020/122660140-441b5780-d155-11eb-80ea-1e33c7e49870.png)
 # Curiosity Marte 🟠
 
 Por Victor Augusto Souza Resende
@@ -15,6 +16,7 @@ Então, ao fim da etapa de implementação do CRISP-DM, dedicou-se a criação d
 
 Nesse repositório há todos os arquivos utilizados para a confecção desse projeto. A pasta documentação possui o arquivo PDF da qual contêm toda a documentação da criação desse projeto com a abordagem CRISP-DM. Na pasta Notebook está o arquivo Jupyter Notebook da qual foi utilizado para a confecção dos códigos nas análises. E então, o restante é referente à implementação streamlit para a resposta das duas perguntas norteadoras.
 
-![marte](https://user-images.githubusercontent.com/63743020/122660122-fbfc3500-d154-11eb-970f-7920d03a52b1.png)
+![marte](https://user-images.githubusercontent.com/63743020/122660142-48477500-d155-11eb-9fa7-9299070a3acc.png)
+
 
 
