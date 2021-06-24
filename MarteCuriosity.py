@@ -100,7 +100,7 @@ elif paginaSelecionada == 'Regressão Linear Múltipla':
     
     st.markdown("<h1 style='text-align: center; color: black;'>Regressão Linear Múltipla</h1>", unsafe_allow_html=True) 
     st.write("<p align='justify'> Regressão múltipla é uma coleção de técnicas estatísticas para construir modelos que descrevem de maneira razoável relações entre várias variáveis explicativas de um determinado processo. Ou seja, de maneira simples, o modelo de regressão faz a atribuição de um valor contínuo a um elemento. Sendo assim, o modelo estatístico para a regressão múltipla pode ser representado,<b> generalizadamente</b>, pela seguinte formula: <p align='justify'>", unsafe_allow_html=True) 
-    st.latex('$Y=\beta_{0}+\beta_{1}x_{i1}+\beta_{2}x_{i2}+...+\beta_{p}x_{ip}+\epsilon_i,~~~i=1,...,n$') 
+    st.latex($Y=\beta_{0}+\beta_{1}x_{i1}+\beta_{2}x_{i2}+...+\beta_{p}x_{ip}+\epsilon_i,~~~i=1,...,n$) 
     
     st.write("""<p align='justify'> <ul> 
          <li> Sendo x valores das variáveis explicativas.</li>
