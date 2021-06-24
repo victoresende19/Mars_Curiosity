@@ -115,7 +115,7 @@ elif paginaSelecionada == 'Regressão Linear Múltipla':
     
     st.title('Temperatura Máxima do Solo em Marte')
     new_array = np.array([TemperaturaMaxAr, TemperaturaMinAr, NivelUV]).reshape(-1, 3)
-    st.write('Após aplicar o modelo de regressão nos dados, a Temperatura Máxima do Solo em Marte é de: {} graus Celsius'.format(model.predict(new_array)))
+    st.write(f'Após aplicar o modelo de regressão nos dados, a Temperatura Máxima do Solo em Marte é de: {model.predict(new_array)} graus Celsius')
     
     
     st.title('Métricas Regressão Linear Múltipla') 
