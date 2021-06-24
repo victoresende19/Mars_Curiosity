@@ -23,8 +23,8 @@ paginaSelecionada  = st.sidebar.selectbox('Selecione a página', ['Projeto','Rel
 
 if paginaSelecionada == 'Projeto':
     st.markdown("<h1 style='text-align: center; color: black;'>Marte - Curiosity Rover (MSL) </h1>", unsafe_allow_html=True) 
-    st.write("<p align='justify'> Por Victor Augusto Souza Resende  <p align='justify'>", unsafe_allow_html=True) 
-    st.write("<p align='justify'> 23 de Maio de 2021 <p align='justify'>", unsafe_allow_html=True) 
+    st.write("<p align='justify'> Por Marcos da Silva Correia e Victor Augusto Souza Resende  <p align='justify'>", unsafe_allow_html=True) 
+    st.write("<p align='justify'> 24 de Junho de 2021 <p align='justify'>", unsafe_allow_html=True) 
     st.write("<p align='justify'> O rover Curiosity, parte da missão Mars Science Laboratory, pode ser considerada uma dos feitos mais bem sucedidas da raça humana em outro planeta, nesse caso, em Marte. O rover está no planeta vermelho desde 12 de Agosto de 2012 até então, entretanto, para a confecção desse projeto foram utilizados os dados coletados até o dia 07 de Abril de 2021. Então, com a coleta dos dados por parte do robô, foi possível acessá-los em uma API por meio da linguagem de programação Python. Dessa forma, foi possível executar um projeto de ciência de dados e machine learning de ponta à ponta, com aplicações e validações estatísticas sobre os dados coletados pelo rover. <p align='justify'>", unsafe_allow_html=True) 
     st.write("<p align='justify'> Esse projeto foi executado utilizando a metodologia de mineração de dados denominada CRISP-DM. De maneira rápida, o CRISP é considerado um modelo de processo de mineração de dados que descreve abordagens comumente usadas por especialistas em mineração de dados para resolver problemas, desde a criação de perguntas norteadoras às abordagens que serão utilizadas para responder tais perguntas. Dessa forma, nesse projeto, foi solicitado a resposta de duas perguntas norteadoras: <p align='justify'>", unsafe_allow_html=True) 
     st.write("""<p align='justify'>
@@ -100,7 +100,7 @@ elif paginaSelecionada == 'Regressão Linear Múltipla':
     
     st.markdown("<h1 style='text-align: center; color: black;'>Regressão Linear Múltipla</h1>", unsafe_allow_html=True) 
     st.write("<p align='justify'> Regressão múltipla é uma coleção de técnicas estatísticas para construir modelos que descrevem de maneira razoável relações entre várias variáveis explicativas de um determinado processo. Ou seja, de maneira simples, o modelo de regressão faz a atribuição de um valor contínuo a um elemento. Sendo assim, o modelo estatístico para a regressão múltipla pode ser representado,<b> generalizadamente</b>, pela seguinte formula: <p align='justify'>", unsafe_allow_html=True) 
-    st.latex('Y = β_0 + β_1x_1 + β_2x_2 +...+β_nx_n + ε ') 
+    st.latex('Y=\beta_{0}+\beta_{1}x_{i1}+\beta_{2}x_{i2}+...+\beta_{p}x_{ip}+\epsilon_i,~~~i=1,...,n') 
     
     st.write("""<p align='justify'> <ul> 
          <li> Sendo x valores das variáveis explicativas.</li>
