@@ -34,7 +34,6 @@ if paginaSelecionada == 'Projeto':
                  </ul> 
                  <p align='justify'>""", unsafe_allow_html=True)
     st.write("<p align='justify'> Então, ao fim da etapa de implementação do CRISP-DM, dedicou-se a criação de uma hospedagem web via streamlit, da qual é uma biblioteca da linguagem Python, para a implementação da conclusão deste projeto. Portanto, no canto superior esquerdo, no menu, é possível acessar as duas conclusões, a primeira em relação ao relatório climático de Marte e a segunda sobre o modelo de regressão linear múltiplo criado, do qual possui interação com o usuário. <p align='justify'>", unsafe_allow_html=True) 
-    st.write("<p align='justify'> Caso queira ler a documentação desse projeto na íntegra, da qual conta com mais de 35 páginas, basta visitar o repositório do autor no GitHub, do qual pode ser acessado por meio do seguinte link: <a href='https://github.com/victoresende19/marte'>Curiosity Repositório</a> <p align='justify'>", unsafe_allow_html=True) 
     st.image("marte1.png", width=None)  
 
 elif paginaSelecionada == 'Relatório Climático Marte':
