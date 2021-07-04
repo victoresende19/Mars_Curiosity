@@ -23,7 +23,7 @@ paginaSelecionada  = st.sidebar.selectbox('Selecione a página', ['Projeto','Rel
 
 if paginaSelecionada == 'Projeto':
     st.markdown("<h1 style='text-align: center; color: black;'>Marte - Curiosity Rover (MSL) </h1>", unsafe_allow_html=True) 
-    st.write("<p align='justify'> Por Marcos da Silva Correia e Victor Augusto Souza Resende  <p align='justify'>", unsafe_allow_html=True) 
+    st.write("<p align='justify'> Por Victor Augusto Souza Resende  <p align='justify'>", unsafe_allow_html=True) 
     st.write("<p align='justify'> 24 de Junho de 2021 <p align='justify'>", unsafe_allow_html=True) 
     st.write("<p align='justify'> O rover Curiosity, parte da missão Mars Science Laboratory, pode ser considerada uma dos feitos mais bem sucedidas da raça humana em outro planeta, nesse caso, em Marte. O rover está no planeta vermelho desde 12 de Agosto de 2012 até então, entretanto, para a confecção desse projeto foram utilizados os dados coletados até o dia 07 de Abril de 2021. Então, com a coleta dos dados por parte do robô, foi possível acessá-los em uma API por meio da linguagem de programação Python. Dessa forma, foi possível executar um projeto de ciência de dados e machine learning de ponta à ponta, com aplicações e validações estatísticas sobre os dados coletados pelo rover. <p align='justify'>", unsafe_allow_html=True) 
     st.write("<p align='justify'> Esse projeto foi executado utilizando a metodologia de mineração de dados denominada CRISP-DM. De maneira rápida, o CRISP é considerado um modelo de processo de mineração de dados que descreve abordagens comumente usadas por especialistas em mineração de dados para resolver problemas, desde a criação de perguntas norteadoras às abordagens que serão utilizadas para responder tais perguntas. Dessa forma, nesse projeto, foi solicitado a resposta de duas perguntas norteadoras: <p align='justify'>", unsafe_allow_html=True) 
@@ -34,6 +34,7 @@ if paginaSelecionada == 'Projeto':
                  </ul> 
                  <p align='justify'>""", unsafe_allow_html=True)
     st.write("<p align='justify'> Então, ao fim da etapa de implementação do CRISP-DM, dedicou-se a criação de uma hospedagem web via streamlit, da qual é uma biblioteca da linguagem Python, para a implementação da conclusão deste projeto. Portanto, no canto superior esquerdo, no menu, é possível acessar as duas conclusões, a primeira em relação ao relatório climático de Marte e a segunda sobre o modelo de regressão linear múltiplo criado, do qual possui interação com o usuário. <p align='justify'>", unsafe_allow_html=True) 
+    st.write("<p align='justify'> Caso queira ler a documentação desse projeto na íntegra, da qual conta com mais de 35 páginas, basta visitar o repositório do autor no GitHub, do qual pode ser acessado por meio do seguinte link: <a href='https://github.com/victoresende19/Mars_Curiosity'>Curiosity Repositório</a> <p align='justify'>", unsafe_allow_html=True) 
     st.image("marte1.png", width=None)  
 
 elif paginaSelecionada == 'Relatório Climático Marte':
